@@ -1,4 +1,4 @@
-import schedule
+
 import requests
 from bs4 import BeautifulSoup
 from My_IDs import email_addrs,password,username
@@ -66,11 +66,4 @@ def send_email():
     
     Server.quit()
     
-    
-schedule.every(24).hours.do(send_email)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
-
 
