@@ -8,6 +8,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import time
 
+
+email_addrs="uabdul88@gmail.com"
+password="Dantala@"
+username="Usman Abdul
 now=datetime.datetime.now()
 headlines=[]
 
