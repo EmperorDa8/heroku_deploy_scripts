@@ -66,4 +66,4 @@ def send_email():
     
     Server.quit()
     
-
+send_email()
