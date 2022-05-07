@@ -52,7 +52,7 @@ def send_email():
     
     mesg=MIMEMultipart()
     
-    mesg["Subject"] = "Automated Nairaland news" +str(now.day) + "-" +str(now.month) + "-" +str(now.year)
+    mesg["Subject"] = "Automated Nairalands news" +str(now.day) + "-" +str(now.month) + "-" +str(now.year)
     
     mesg["From"]=From
     mesg["To"]= To
