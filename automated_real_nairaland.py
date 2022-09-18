@@ -34,10 +34,9 @@ def get_page_job(url):
         headlines.append(new)
     return headlines
 
-
+get_page_job("https://www.nairaland.com/")
 
 def send_email():
-    get_page_job("https://www.nairaland.com/")
     time.sleep(8)
     print("composing email....")
     
